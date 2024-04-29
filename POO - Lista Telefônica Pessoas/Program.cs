@@ -2,13 +2,13 @@
 string nome, sobrenome, telefone, celular, email;
 int idade;
 
-Pessoas p1 = new Pessoas();
-Pessoas p2 = new Pessoas();
-Pessoas p3 = new Pessoas();
+Pessoa p1 = new Pessoa();
+Pessoa p2 = new Pessoa();
+Pessoa p3 = new Pessoa();
 
-Pessoas CriarPessoa()
+Pessoa CriarPessoa()
 {
-    Pessoas p = new Pessoas();
+    Pessoa p = new Pessoa();
 
     Console.Write("Digite o seu nome: ");
     nome = Console.ReadLine();
