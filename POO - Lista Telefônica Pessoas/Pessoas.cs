@@ -6,7 +6,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-public class Pessoas
+public class Pessoa
 {
     public string Nome;
     public int Idade;
@@ -16,7 +16,7 @@ public class Pessoas
     public string Email;
 
 
-    public Pessoas() //Método construtor
+    public Pessoa() //Método construtor
     {
 
     }
